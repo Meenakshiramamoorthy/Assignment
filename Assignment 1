@@ -1,0 +1,7 @@
+library(leaflet)
+
+my_map <- leaflet() %>%
+  addTiles() %>%
+addMarkers(lat=12.993922,  lng=77.599396,popup="Mark's Office?")
+my_map
+
